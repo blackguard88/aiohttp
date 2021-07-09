@@ -76,12 +76,12 @@ filelock==3.0.12
     # via
     #   -r requirements/lint.txt
     #   virtualenv
-flake8-pyi==20.10.0
-    # via -r requirements/lint.txt
 flake8==3.8.4
     # via
     #   -r requirements/lint.txt
     #   flake8-pyi
+flake8-pyi==20.10.0
+    # via -r requirements/lint.txt
 freezegun==1.1.0
     # via -r requirements/test.txt
 frozenlist==1.1.1
@@ -111,7 +111,7 @@ iniconfig==1.1.1
     # via
     #   -r requirements/lint.txt
     #   pytest
-isort==5.7.0
+isort==5.9.2
     # via -r requirements/lint.txt
 jinja2==2.11.2
     # via
@@ -127,16 +127,16 @@ multidict==5.1.0
     # via
     #   -r requirements/multidict.txt
     #   yarl
+mypy==0.790 ; implementation_name == "cpython"
+    # via
+    #   -r requirements/lint.txt
+    #   -r requirements/test.txt
 mypy-extensions==0.4.3 ; implementation_name == "cpython"
     # via
     #   -r requirements/lint.txt
     #   -r requirements/test.txt
     #   black
     #   mypy
-mypy==0.790 ; implementation_name == "cpython"
-    # via
-    #   -r requirements/lint.txt
-    #   -r requirements/test.txt
 nodeenv==1.5.0
     # via
     #   -r requirements/lint.txt
@@ -185,16 +185,16 @@ pyparsing==2.4.7
     # via
     #   -r requirements/lint.txt
     #   packaging
-pytest-cov==2.11.1
-    # via -r requirements/test.txt
-pytest-mock==3.5.1
-    # via -r requirements/test.txt
 pytest==6.2.2
     # via
     #   -r requirements/lint.txt
     #   -r requirements/test.txt
     #   pytest-cov
     #   pytest-mock
+pytest-cov==2.11.1
+    # via -r requirements/test.txt
+pytest-mock==3.5.1
+    # via -r requirements/test.txt
 python-dateutil==2.8.1
     # via freezegun
 pytz==2020.5
